@@ -1,0 +1,9 @@
+﻿namespace PolicyNotes.Models
+{
+    public class PolicyNote
+    {
+        public int Id { get; set; }
+        public string PolicyNumber { get; set; } = string.Empty;
+        public string Note { get; set; } = string.Empty;
+    }
+}
